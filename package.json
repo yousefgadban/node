@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node olym/olym.js"
+  },
   "repository": {
     "type": "git"
   },
@@ -18,6 +20,7 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "mongoose": "^6.0.12",
     "nodemon": "^2.0.14",
     "postman-request": "^2.88.1-postman.30",
     "uniqid": "^5.4.0",

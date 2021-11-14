@@ -10,7 +10,7 @@ const getAllItems = async () => {
 const loadAllItems = () => {
 
     return new Promise((resolve, reject) => {
-        try{
+        try {
             const dataBuffer = fs.readFileSync('../market.json', 'utf8');
             const dataJSON = dataBuffer.toString();
             resolve(JSON.parse(dataJSON));
